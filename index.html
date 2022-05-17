@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" class="container">
+        <div class="judul">
+            <h2 >FORM PENDAFTARAN REMAJA MASJID</h2>
+            <p>Masjid Al-Gondolia jl. kersan, Tirtonirmolo, Kasihan, Bantul, Yogyakarta</p>
+            <hr>
+        </div>
+        
+        <label for="nama">Nama Lengkap &emsp;&nbsp;&nbsp; :</label>
+        <input type="text" name="nama" id="nama">
+        <br><br>
+
+        <label for="nama">Nomor KTP / SIM &nbsp;:</label>
+        <input type="number" name="nik" id="nik">
+        <br><br>
+
+        <label for="nama">Tempat / Tgl. Lahir &nbsp;:</label>
+        <input type="date" name="ttl" id="ttl">
+        <br><br>
+
+        <label for="nama">Agama &emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+        <input type="text" name="agama" id="agama">
+        <br><br>
+
+        <label for="nama">Pekerjaan &emsp;&emsp;&emsp; &ensp;:</label>
+        <input type="text" name="pekerjaan" id="pekerjaan">
+        <br><br>
+
+        <label for="jeniskelamin">Jenis Kelamin &emsp;&emsp; :</label>
+        
+        <input type="radio" name="jeniskelamin" id="jeniskelamin" value="laki-laki"> Laki-laki
+        <input type="radio" name="jeniskelamin" id="jeniskelamin" value="perempuan"> Perempuan
+        <br><br>
+
+        <label for="statusperkawinan">Status Perkawinan &nbsp;:</label>
+    
+        <input type="radio" name="statusperkawinan" id="statusperkawinan" value="Kawin"> Kawin
+        <input type="radio" name="statusperkawinan" id="statusperkawinan" value="Belum Kawin"> Belum Kawin
+        <br><br>
+
+        <label for="pendidikan">Pendidikan Terakhir</label><br>
+        <input type="checkbox" name="pendidikan" id="pendidikan" value="SD"> SD <br>
+        <input type="checkbox" name="pendidikan" id="pendidikan" value="SMP"> SMP <br>
+        <input type="checkbox" name="pendidikan" id="pendidikan" value="SMA"> SMA <br>
+        <input type="checkbox" name="pendidikan" id="pendidikan" value="S1"> Sarjana S1 <br>
+        <br>
+
+        <label for="alamat">Alamat</label>
+        <br>
+        <textarea name="alamat" id="alamat" cols="35" rows="5"></textarea>
+        <br><br>
+
+        <div class="submit">
+            <input type="button" value="Submit" onclick="tampilData()">
+        </div>
+        
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

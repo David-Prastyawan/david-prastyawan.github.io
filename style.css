@@ -1,0 +1,21 @@
+.container{
+    width: 650px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 50px;
+    
+}
+
+.judul{
+    text-align: center;
+    margin-top: 1px;
+}
+
+body{
+    font-family: 'Gill Sans MT';
+    background: linear-gradient(to top right, #33ccff 6%, #ffcc99 89%);
+}
+
+.submit:hover{
+    cursor: pointer;
+}
